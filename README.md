@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![ClutchTV Banner](https://via.placeholder.com/800x200/1a1a2e/3b82f6?text=ClutchTV)
+<img src="assets/clutchtv-logo.png" alt="ClutchTV Logo" width="300">
 
 **Never miss a play. Record your League of Legends games automatically.**
 
@@ -33,7 +33,7 @@ ClutchTV automatically records your League of Legends games and tracks every kil
 
 ### Option 1: Standalone Package (Recommended for Alpha)
 
-**[⬇️ Download ClutchTV v0.1.0-alpha.zip](../../releases/latest)**
+**[⬇️ Download ClutchTV v0.1.2-alpha.zip](../../releases/latest)**
 
 1. Extract the ZIP to any folder
 2. Run `ClutchTV.exe`
