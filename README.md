@@ -61,122 +61,41 @@ ClutchTV automatically records your League of Legends games and tracks every kil
 
 ---
 
-## 🎬 How It Works
+## ⚠️ Alpha Release
 
-### Recording
-- Automatically detects when you enter a League game
-- Records at your native resolution
-- Minimal performance impact (~5-10 FPS)
+This is an early version - expect some rough edges.
 
-### Event Tracking
-- Connects to League's Live Client API (port 2999)
-- Tracks kills, deaths, assists, dragons, barons, towers
-- Events sync perfectly with your video timeline
+**Known stuff:**
+- Windows SmartScreen might complain (click "More info" → "Run anyway")
+- Might need admin rights on some systems
+- Video files are pretty big (~500MB per 30min game)
+- Make sure League runs in Borderless or Windowed mode (fullscreen won't work)
 
-### Clip Creation
-- Open any replay and click "Edit"
-- Select start/end times on the timeline
-- Export clips with optional watermark
-- Clips saved to a separate folder
+Found a bug? Let me know on [Discord](https://discord.gg/9JQzXfTVXE) or open an [issue](../../issues).
 
 ---
 
-## ⚠️ Alpha Release Notes
+## Troubleshooting
 
-This is an **alpha version** - bugs are expected!
+**Recording didn't start?**
+- League needs to be in Windowed/Borderless (not fullscreen)
+- Check ClutchTV is actually running
 
-**Known Issues:**
-- Windows SmartScreen warning on first run (normal for new apps)
-  - Click "More info" → "Run anyway"
-- May require "Run as Administrator" on some systems
-- Large video files (~500MB per 30min game)
+**No events on timeline?**
+- Games under 5 minutes won't have events
+- Practice Tool isn't supported
+- Your firewall might be blocking port 2999
 
-**Please report bugs on [Discord](https://discord.gg/9JQzXfTVXE) or [GitHub Issues](../../issues)!**
-
----
-
-## 🛠️ Troubleshooting
-
-### Recording didn't start?
-- Make sure League is running in **Windowed** or **Borderless** mode (not fullscreen)
-- Check if ClutchTV is running in the background
-
-### No events showing on timeline?
-- Game must be longer than 5 minutes
-- Practice Tool is not supported (no Live Client API)
-- Check your firewall isn't blocking port 2999
-
-### App won't launch?
-- Right-click `ClutchTV.exe` → "Run as Administrator"
-- Check Windows Event Viewer for error details
-
-### Video playback is laggy?
-- Try reducing your in-game resolution
-- Ensure videos are saved to a fast drive (SSD recommended)
-
----
-
-## 🗺️ Roadmap
-
-### v0.2.0 (Coming Soon)
-- [ ] **Performance Heatmaps** - Visualize your kills/deaths on the minimap
-- [ ] **Advanced Analytics** - Win condition analysis, objective control stats
-- [ ] **Auto-Highlights** - AI detects outplays, pentakills, and clutch moments
-- [ ] **Cloud Clip Sharing** - Share clips with friends via link
-
-### v1.0.0 (Full Release)
-- [ ] Microsoft Store distribution
-- [ ] Multi-language support
-- [ ] Advanced clip editor with transitions
-- [ ] Statistics dashboard
-
----
-
-## 💬 Community & Support
-
-- **Discord**: [https://discord.gg/9JQzXfTVXE](https://discord.gg/9JQzXfTVXE)
-- **Bug Reports**: [GitHub Issues](../../issues)
-- **Made by**: Processor
-
----
-
-## 🔒 Privacy
-
-- **No telemetry** - We don't track you
-- **No cloud uploads** - Everything stays local
-- **No account required** - Just download and use
-- **Open issue tracking** - Transparent development
-
-Your replays and data never leave your PC.
-
----
-
-## 📂 Where Are My Files?
-
-- **Recordings**: The folder you selected on first launch (default: `%USERPROFILE%\Videos\ClutchTV`)
-- **Database**: `%USERPROFILE%\AppData\Local\ClutchTV\clutchtv.db`
-- **Logs**: `%USERPROFILE%\AppData\Local\ClutchTV\logs\`
-- **Clips**: `YourVideosFolder\clips\`
-
----
-
-## 🎯 Coming Soon
-
-**ClutchTV is laser-focused on becoming the ultimate League of Legends replay tool.**
-
-- 🗺️ **Performance Heatmaps** - Visualize where you dominate or struggle on the map
-- 📊 **Advanced Analytics** - Win rate by champion, objective control, lane phase analysis
-- 🤖 **AI Outplay Detection** - Automatically find your best mechanical plays
-- 🔗 **Clip Sharing** - Share highlights directly with friends
-- 🏆 **Champion Mastery Showcase** - Auto-generated montages of your best plays
-- 📈 **Progress Tracking** - See your improvement over time with detailed stats
+**App crashes or won't launch?**
+- Try running as administrator
+- Check if you have the latest Windows updates
 
 ---
 
 <div align="center">
 
-**[⬇️ Download Latest Release](../../releases/latest)** • **[Join Discord](https://discord.gg/9JQzXfTVXE)** • **[Report Bug](../../issues)**
+**[⬇️ Download](../../releases/latest)** • **[Discord](https://discord.gg/9JQzXfTVXE)** • **[Issues](../../issues)**
 
-Made with ❤️ by Processor • 2025
+Made by Processor
 
 </div>
