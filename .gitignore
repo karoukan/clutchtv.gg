@@ -1,0 +1,8 @@
+# Release files (use GitHub Releases instead)
+*.zip
+*.exe
+*.msix
+
+# OS files
+.DS_Store
+Thumbs.db
